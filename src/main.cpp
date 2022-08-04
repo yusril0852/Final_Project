@@ -53,12 +53,12 @@ enum State
 
 // WebServer
 const char *ssid = "Turangga";      // Wifi
-const char *password = "jampot123"; // Password
+const char *password = "xxxxx"; // Password
 char server[] = "192.168.100.6";    // Server ipV4
 
 // TELEGRAM BOT
-#define BOTtoken "5583664681:AAHCs-B4W3h39GHZ2i-B58XGh1zoy7ZqSr4"
-#define CHAT_ID "246837208"
+#define BOTtoken "5xxxx"
+#define CHAT_ID "xxxx"
 WiFiClientSecure client;
 int botRequestDelay = 500;
 unsigned long lastTimeBotRan;
